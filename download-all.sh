@@ -8,7 +8,7 @@ for ScriptPath in $Scripts
 do
 	echo "Script path: $ScriptPath"
 	Script=$(basename $ScriptPath)
-	NewName=$(echo $Script | sed 's/.sh//g')
+	NewName=$(echo $Script | sed 's/\.sh//g')
 	echo "$Script -> $NewName"
 	cp $ScriptPath ./../renamed/$NewName
 done
