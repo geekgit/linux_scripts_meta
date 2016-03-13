@@ -2,6 +2,7 @@
 git clone https://github.com/geekgit/linux_scripts
 mkdir renamed
 cd linux_scripts
+rm -rf .git/
 Scripts=$(find . -type f 2>/dev/null | grep .sh)
 echo "Scripts: $Scripts"
 for ScriptPath in $Scripts
