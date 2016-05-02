@@ -10,6 +10,8 @@ do
 	echo "Script path: $ScriptPath"
 	Script=$(basename $ScriptPath)
 	NewName=$(echo $Script | sed 's/\.sh//g')
+	# prefix	
+	NewName="geekgit-$NewName"
 	echo "$Script -> $NewName"
 	cp $ScriptPath ./../renamed/$NewName
 done
