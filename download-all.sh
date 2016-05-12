@@ -15,11 +15,12 @@ do
 	echo "$Script -> $NewName"
 	cp $ScriptPath ./../renamed/$NewName
 done
-cd ./../renamed
+echo "Clean /usr/local/bin..."
+cd ..
+./remove-all.sh
+cd renamed
 sudo chown root:root *
 sudo chmod a+rx-w *
-echo "Clean /usr/local/bin..."
-./remove-all.sh
 echo "Install new scripts to /usr/local/bin"
 sudo mv * /usr/local/bin
 cd ..
