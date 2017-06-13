@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install -y git pv pip wget
+sudo apt-get install -y git pv python-pip wget
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
 sudo chown root:root /usr/local/bin/screenfetch-dev
