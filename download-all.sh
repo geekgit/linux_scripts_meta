@@ -1,5 +1,9 @@
 #!/bin/bash
 sudo apt-get install -y git pv pip wget
+wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
+sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
+sudo chown root:root /usr/local/bin/screenfetch-dev
+sudo chmod a+rx-w /usr/local/bin/screenfetch-dev
 sudo pip install --upgrade youtube-dl
 sudo pip install --upgrade speedtest-cli
 git clone https://github.com/geekgit/linux_scripts
