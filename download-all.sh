@@ -4,6 +4,7 @@ wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/K
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
 sudo chown root:root /usr/local/bin/screenfetch-dev
 sudo chmod a+rx-w /usr/local/bin/screenfetch-dev
+rm screenfetch-dev
 sudo pip install --upgrade youtube-dl
 sudo pip install --upgrade speedtest-cli
 git clone https://github.com/geekgit/linux_scripts
