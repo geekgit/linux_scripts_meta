@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get install -y git pv
 git clone https://github.com/geekgit/linux_scripts
 mkdir renamed
 cd linux_scripts
