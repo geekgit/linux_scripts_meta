@@ -37,3 +37,4 @@ rm -rf linux_scripts/
 sudo geekgit-install-modem-soft
 sudo geekgit-setup-rules
 ./mpv.sh
+./bash.sh

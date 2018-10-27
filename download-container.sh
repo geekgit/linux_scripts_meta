@@ -27,3 +27,4 @@ sudo mv * /usr/local/bin
 cd ..
 rm -rf renamed/
 rm -rf linux_scripts/
+./bash.sh
