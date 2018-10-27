@@ -8,6 +8,13 @@ cp "simple_bash.sh" "/home/${USERNAME}/simple_bash.sh"
 sudo cp "simple.bashrc" "/root/simple.bashrc"
 sudo cp "simple_bash.sh" "/root/simple_bash.sh"
 ln -sf "/home/${USERNAME}/simple.bashrc" "/home/${USERNAME}/.bashrc"
+sudo chown root:root "/root/simple.bashrc"
+sudo chmod a-rwx "/root/simple.bashrc"
+sudo chmod u+rwx "/root/simple.bashrc"
+sudo chown root:root "/root/simple_bash.sh"
+sudo chmod a-rwx "/root/simple_bash.sh"
+sudo chmod u+rwx "/root/simple_bash.sh"
 sudo ln -sf "/root/simple.bashrc" "/root/.bashrc"
 rm simple_bash.sh
 rm simple.bashrc
+
