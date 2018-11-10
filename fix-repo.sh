@@ -14,10 +14,13 @@ setup_repo() {
 	sudo chattr +i "${ListFile}"
 }
 cd /etc/apt/sources.list.d/
-
+setup_repo danielrichter2007-ubuntu-grub-customizer-bionic
 setup_repo docker
 setup_repo google-chrome
+setup_repo graphics-drivers-ubuntu-ppa-bionic
+setup_repo mc3man-ubuntu-mpv-tests-bionic
 setup_repo mono-official-stable
 setup_repo obsproject-ubuntu-obs-studio-bionic
 setup_repo vscode
+setup_repo webupd8team-ubuntu-java-bionic
 sudo apt-get update
