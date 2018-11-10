@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install -y git pv python-pip wget
+sudo apt-get install -y uuid-runtime git pv python-pip wget
 sudo pip install --upgrade youtube-dl
 sudo pip install --upgrade speedtest-cli
 git clone https://github.com/geekgit/linux_scripts

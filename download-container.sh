@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install -y htop git pv python-pip wget
+sudo apt-get install -y uuid-runtime htop git pv python-pip wget
 git clone https://github.com/geekgit/linux_scripts
 mkdir renamed
 cd linux_scripts
