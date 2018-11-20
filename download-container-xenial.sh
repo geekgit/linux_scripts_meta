@@ -2,16 +2,9 @@
 sudo apt-get update
 sudo apt-get install -y apt-transport-https
 sudo apt-get update
-./fix-main-repo-bionic.sh
+./fix-main-repo-xenial.sh
 sudo apt-get update
 sudo apt-get install -y uuid-runtime htop git pv python-pip wget mtools dosfstools qemu-utils
-wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
-sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
-sudo chown root:root /usr/local/bin/screenfetch-dev
-sudo chmod a+rx-w /usr/local/bin/screenfetch-dev
-rm screenfetch-dev
-sudo pip install --upgrade youtube-dl
-sudo pip install --upgrade speedtest-cli
 git clone https://github.com/geekgit/linux_scripts
 mkdir renamed
 cd linux_scripts
@@ -39,8 +32,3 @@ sudo mv * /usr/local/bin
 cd ..
 rm -rf renamed/
 rm -rf linux_scripts/
-sudo geekgit-install-modem-soft
-sudo geekgit-setup-rules
-./mpv.sh
-./bash.sh
-sudo ./no-sleep.sh
