@@ -1,4 +1,5 @@
 #!/bin/bash
+./fix-main-repo.sh
 git clone https://github.com/geekgit/linux_scripts
 mkdir renamed
 cd linux_scripts

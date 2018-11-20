@@ -1,4 +1,5 @@
 #!/bin/bash
+./fix-main-repo.sh
 sudo apt-get install -y uuid-runtime htop git pv python-pip wget mtools dosfstools qemu-utils
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev

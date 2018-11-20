@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt-get install -y uuid-runtime htop git pv python-pip wget
+./fix-main-repo.sh
+sudo apt-get install -y uuid-runtime htop git pv python-pip wget mtools dosfstools qemu-utils
 git clone https://github.com/geekgit/linux_scripts
 mkdir renamed
 cd linux_scripts
