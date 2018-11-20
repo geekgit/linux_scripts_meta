@@ -1,6 +1,9 @@
 #!/bin/bash
+sudo apt-get update
 sudo apt-get install -y apt-transport-https
+sudo apt-get update
 ./fix-main-repo.sh
+sudo apt-get update
 sudo apt-get install -y uuid-runtime htop git pv python-pip wget mtools dosfstools qemu-utils
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev

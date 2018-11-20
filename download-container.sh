@@ -1,6 +1,9 @@
 #!/bin/bash
+sudo apt-get update
 sudo apt-get install -y apt-transport-https
+sudo apt-get update
 ./fix-main-repo.sh
+sudo apt-get update
 sudo apt-get install -y uuid-runtime htop git pv python-pip wget mtools dosfstools qemu-utils
 git clone https://github.com/geekgit/linux_scripts
 mkdir renamed
