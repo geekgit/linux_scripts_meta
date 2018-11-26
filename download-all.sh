@@ -4,7 +4,23 @@ sudo apt-get install -y apt-transport-https
 sudo apt-get update
 ./fix-main-repo-bionic.sh
 sudo apt-get update
+# useful 
 sudo apt-get install -y uuid-runtime htop git pv python-pip wget mtools dosfstools qemu-utils
+#
+# iso tools
+sudo apt-get install -y mdf2iso b5i2iso ccd2iso cdi2iso daa2iso nrg2iso pdi2iso iat genisoimage acetoneiso bchunk udftools brasero k3b
+sudo apt-get install -y gcdemu
+#
+# radio
+sudo apt-get install -y qsstv ebook2cwgui fldigi gqrx-sdr
+# 
+# useful 2
+sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar
+#
+# nv drivers
+sudo apt-get install -y libnvidia-cfg1-415
+sudo apt-get install -y nvidia-driver-415
+#
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
 sudo chown root:root /usr/local/bin/screenfetch-dev
@@ -44,3 +60,4 @@ sudo geekgit-setup-rules
 ./mpv.sh
 ./bash.sh
 sudo ./no-sleep.sh
+sudo ./fix-gqrx-share.sh

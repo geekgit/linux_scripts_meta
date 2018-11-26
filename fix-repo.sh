@@ -45,4 +45,7 @@ setup_repo vscode
 sudo add-apt-repository -y ppa:webupd8team/java
 setup_repo webupd8team-ubuntu-java-bionic
 #
+sudo add-apt-repository -y ppa:cdemu/ppa
+setup_repo cdemu-ubuntu-ppa-bionic
+#
 sudo apt-get update
