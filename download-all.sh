@@ -20,6 +20,8 @@ sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full 
 # nv drivers
 sudo apt-get install -y libnvidia-cfg1-415
 sudo apt-get install -y nvidia-driver-415
+# phone
+sudo apt-get install -y jmtpfs mtp-tools android-tools-fastboot android-tools-adb
 #
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
