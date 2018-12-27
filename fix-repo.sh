@@ -30,9 +30,9 @@ setup_repo graphics-drivers-ubuntu-ppa-bionic
 sudo add-apt-repository -y ppa:mc3man/mpv-tests
 setup_repo mc3man-ubuntu-mpv-tests-bionic
 #
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-sudo add-apt-repository -y "deb https://download.mono-project.com/repo/ubuntu stable-bionic main"
-setup_repo mono-official-stable
+#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+#sudo add-apt-repository -y "deb https://download.mono-project.com/repo/ubuntu stable-bionic main"
+#setup_repo mono-official-stable
 #
 sudo add-apt-repository -y ppa:obsproject/obs-studio
 setup_repo obsproject-ubuntu-obs-studio-bionic
