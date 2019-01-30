@@ -23,6 +23,10 @@ sudo apt-get install -y nvidia-driver-415
 # phone
 sudo apt-get install -y jmtpfs mtp-tools android-tools-fastboot android-tools-adb
 #
+sudo apt-get install -y easytag
+#kernel
+sudo apt-get install -y linux-generic linux-headers-generic linux-image-generic
+#
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
 sudo chown root:root /usr/local/bin/screenfetch-dev
