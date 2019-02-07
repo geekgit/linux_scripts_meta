@@ -26,6 +26,8 @@ sudo apt-get install -y jmtpfs mtp-tools android-tools-fastboot android-tools-ad
 sudo apt-get install -y easytag
 #kernel
 sudo apt-get install -y linux-generic linux-headers-generic linux-image-generic
+# iostat
+sudo apt-get install -y sysstat
 #
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
