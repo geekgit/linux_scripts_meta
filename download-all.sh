@@ -18,8 +18,8 @@ sudo apt-get install -y qsstv ebook2cwgui fldigi gqrx-sdr
 sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar
 #
 # nv drivers
-sudo apt-get install -y libnvidia-cfg1-415
-sudo apt-get install -y nvidia-driver-415
+sudo apt-get install -y libnvidia-cfg1-418
+sudo apt-get install -y nvidia-driver-418
 # phone
 sudo apt-get install -y jmtpfs mtp-tools android-tools-fastboot android-tools-adb
 #
@@ -77,3 +77,5 @@ sudo ./fix-gqrx-share.sh
 sudo systemctl stop udisks2
 sudo systemctl disable udisks2
 sudo systemctl mask udisks2
+#
+sudo ./mnt.sh
