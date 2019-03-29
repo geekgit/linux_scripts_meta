@@ -69,3 +69,7 @@ sudo geekgit-setup-rules
 ./bash.sh
 sudo ./no-sleep.sh
 sudo ./fix-gqrx-share.sh
+#
+sudo systemctl stop udisks2
+sudo systemctl disable udisks2
+sudo systemctl mask udisks2
