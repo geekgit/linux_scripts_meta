@@ -29,6 +29,10 @@ sudo apt-get install -y linux-generic linux-headers-generic linux-image-generic
 # iostat
 sudo apt-get install -y sysstat
 #
+sudo add-apt-repository -y ppa:gezakovacs/ppa
+sudo apt-get update
+sudo apt-get install -y unetbootin
+#
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
 sudo chown root:root /usr/local/bin/screenfetch-dev
