@@ -4,4 +4,4 @@ chmod a+rwx "mpv_install.sh"
 mkdir -p "/home/${USERNAME}/.config/mpv"
 mv "mpv_install.sh" "/home/${USERNAME}/.config/mpv/install.sh"
 cd /home/${USERNAME}/.config/mpv/
-/home/${USERNAME}/.config/mpv/install.sh
+/home/${USERNAME}/.config/mpv/install.sh "comfy-watching"
