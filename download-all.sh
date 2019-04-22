@@ -35,6 +35,8 @@ sudo apt-get install -y unetbootin
 #
 #web
 sudo apt-get install -y mysql-server apache2 libapache2-mod-php php-mysql
+sudo ./apache2.sh
+#
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
 sudo chown root:root /usr/local/bin/screenfetch-dev
