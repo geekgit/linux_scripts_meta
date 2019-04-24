@@ -36,6 +36,9 @@ sudo apt-get install -y unetbootin
 #web
 sudo apt-get install -y mysql-server apache2 libapache2-mod-php php-mysql
 sudo ./apache2.sh
+#docker
+sudo apt-get install -y docker-ce
+sudo ./nv-docker.sh
 #
 wget  --secure-protocol=TLSv1_2 --https-only https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch-dev
 sudo cp screenfetch-dev /usr/local/bin/screenfetch-dev
