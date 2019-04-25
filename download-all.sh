@@ -13,6 +13,8 @@ sudo apt-get install -y gcdemu
 #
 # radio
 sudo apt-get install -y qsstv ebook2cwgui fldigi gqrx-sdr
+# OCR
+sudo apt-get install -y cuneiform tesseract-ocr-all yagf
 # 
 # useful 2
 sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar
