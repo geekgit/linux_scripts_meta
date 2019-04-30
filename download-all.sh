@@ -89,4 +89,4 @@ sudo systemctl mask udisks2
 #
 sudo ./mnt.sh
 #
-geekgit-messenger-install
+geekgit-install-messenger
