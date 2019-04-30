@@ -5,7 +5,7 @@ sudo apt-get update
 ./fix-main-repo-bionic.sh
 sudo apt-get update
 # useful 
-sudo apt-get install -y uuid-runtime htop git pv python-pip wget mtools dosfstools qemu-utils
+sudo apt-get install -y uuid-runtime htop git pv python-pip curl wget mtools dosfstools qemu-utils
 #
 # iso tools
 sudo apt-get install -y mdf2iso b5i2iso ccd2iso cdi2iso daa2iso nrg2iso pdi2iso iat genisoimage acetoneiso bchunk udftools brasero k3b
