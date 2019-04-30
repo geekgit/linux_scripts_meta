@@ -88,3 +88,5 @@ sudo systemctl disable udisks2
 sudo systemctl mask udisks2
 #
 sudo ./mnt.sh
+#
+geekgit-messenger-install
