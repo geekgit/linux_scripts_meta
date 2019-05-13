@@ -8,7 +8,18 @@ then
 else
 	echo "Local commit != Remote commit"
 	echo "Version mismatch!"
-	exit 1
+	UuidgenFile="$(which uuidgen)"
+	if test -f "${UuidgenFile}"
+	then
+		RandomDir="${HOME}/meta_install_$(uuidgen)"
+		mkdir -p "${RandomDir}"
+		cd "${RandomDir}"
+		git clone "https://github.com/geekgit/linux_scripts_meta"
+		./download-all.sh		
+		exit 0
+	else
+		exit 1
+	fi	
 fi
 
 #purge
