@@ -15,6 +15,7 @@ else
 		mkdir -p "${RandomDir}"
 		cd "${RandomDir}"
 		git clone "https://github.com/geekgit/linux_scripts_meta"
+		cd linux_scripts_meta
 		./download-all.sh		
 		exit 0
 	else
