@@ -7,6 +7,11 @@ setup_mnt_script() {
 	sudo chmod a-rwx "${FullName}"
 	sudo chmod u+rwx "${FullName}"
 }
+uninstall_mnt_script() {
+	ScriptName="$1"
+	FullName="${ScriptName}.sh"
+	sudo rm "${FullName}"
+}
 cd /mnt
 setup_mnt_script "mount-sda1-ntfs"
 setup_mnt_script "mount-sdb1-fat32-rus"
