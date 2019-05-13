@@ -11,12 +11,16 @@ else
 	UuidgenFile="$(which uuidgen)"
 	if test -f "${UuidgenFile}"
 	then
-		RandomDir="${HOME}/meta_install_$(uuidgen)"
-		mkdir -p "${RandomDir}"
-		cd "${RandomDir}"
+		CurrPath="${PWD}"
+		TmpPath="${HOME}/meta_install_$(uuidgen)"
+		mkdir -p "${TmpPath}"
+		cd "${TmpPath}"
 		git clone "https://github.com/geekgit/linux_scripts_meta"
 		cd linux_scripts_meta
-		./download-all.sh		
+		./download-all.sh
+		cd "${CurrPath}"
+		rm -rf "${TmpPath}"
+		git pull
 		exit 0
 	else
 		exit 1
