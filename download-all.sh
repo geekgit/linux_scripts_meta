@@ -127,5 +127,5 @@ sudo ./mnt.sh
 #
 geekgit-install-messenger
 #
-sudo tweak-set-webp-thumbnailer
-tweak-reset-thumbnailers
+sudo geekgit-tweak-set-webp-thumbnailer
+geekgit-tweak-reset-thumbnailers
