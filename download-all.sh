@@ -126,3 +126,6 @@ sudo systemctl mask udisks2
 sudo ./mnt.sh
 #
 geekgit-install-messenger
+#
+sudo tweak-set-webp-thumbnailer
+tweak-reset-thumbnailers
