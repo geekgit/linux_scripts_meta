@@ -74,6 +74,8 @@ sudo apt-get install -y unetbootin
 #web
 sudo apt-get install -y mysql-server apache2 libapache2-mod-php php-mysql
 sudo ./apache2.sh
+#images
+sudo apt-get install -y webp pngquant
 #docker
 sudo apt-get install -y docker-ce
 sudo ./nv-docker.sh
