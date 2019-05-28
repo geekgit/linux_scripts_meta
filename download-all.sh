@@ -34,6 +34,12 @@ sudo apt-get install -y apt-transport-https
 sudo apt-get update
 ./fix-main-repo-bionic.sh
 sudo apt-get update
+# fonts
+sudo apt-get install -y fonts-takao-mincho fonts-takao-gothic fonts-takao
+sudo apt-get install -y fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
+sudo su -c 'echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections'
+sudo apt-get install -y cabextract xfonts-utils update-notifier-common
+env DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ttf-mscorefonts-installer
 # useful 
 sudo apt-get install -y uuid-runtime htop git pv python-pip curl wget mtools dosfstools qemu-utils
 #
