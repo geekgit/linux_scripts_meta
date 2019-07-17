@@ -76,6 +76,8 @@ sudo apt-get install -y mysql-server apache2 libapache2-mod-php php-mysql
 sudo ./apache2.sh
 #images
 sudo apt-get install -y webp pngquant
+#gl dev
+sudo apt-get install -y libgl1-mesa-dev
 #docker
 sudo apt-get install -y docker-ce
 sudo ./nv-docker.sh
@@ -121,9 +123,13 @@ sudo geekgit-setup-rules
 sudo ./no-sleep.sh
 sudo ./fix-gqrx-share.sh
 #
-sudo systemctl stop udisks2
-sudo systemctl disable udisks2
-sudo systemctl mask udisks2
+#sudo systemctl stop udisks2
+#sudo systemctl disable udisks2
+#sudo systemctl mask udisks2
+sudo systemctl unmask udisks2
+sudo systemctl enable udisks2
+sudo systemctl start udisks2
+
 #
 sudo ./mnt.sh
 #
