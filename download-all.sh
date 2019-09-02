@@ -141,3 +141,6 @@ geekgit-tweak-reset-thumbnailers
 sudo geekgit-tweak-set-applications
 #
 sudo ./fix-openssl.sh
+# snap
+sudo snap install scrcpy
+sudo snap refresh
