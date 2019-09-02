@@ -139,3 +139,5 @@ sudo geekgit-tweak-set-webp-thumbnailer
 geekgit-tweak-reset-thumbnailers
 #
 sudo geekgit-tweak-set-applications
+#
+sudo ./fix-openssl.sh
