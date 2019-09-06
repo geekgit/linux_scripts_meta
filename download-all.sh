@@ -45,6 +45,9 @@ sudo apt-get install -y uuid-runtime htop git pv python-pip curl wget mtools dos
 #
 # iso tools
 sudo apt-get install -y mdf2iso b5i2iso ccd2iso cdi2iso daa2iso nrg2iso pdi2iso iat genisoimage acetoneiso bchunk udftools brasero k3b
+# cdemu
+sudo add-apt-repository -y ppa:cdemu/ppa
+sudo apt-get update
 sudo apt-get install -y gcdemu
 #
 # radio
@@ -56,8 +59,8 @@ sudo apt-get install -y cuneiform tesseract-ocr-all yagf
 sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar
 #
 # nv drivers
-sudo apt-get install -y libnvidia-cfg1-418
-sudo apt-get install -y nvidia-driver-418
+sudo apt-get install -y libnvidia-cfg1-430
+sudo apt-get install -y nvidia-driver-430
 # phone
 sudo apt-get install -y jmtpfs mtp-tools android-tools-fastboot android-tools-adb
 #
