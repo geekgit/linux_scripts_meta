@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get install -y apt-transport-https
 sudo apt-get update
-#./fix-main-repo-bionic.sh
+./fix-main-repo.sh
 sudo apt-get update
 sudo apt-get install -y uuid-runtime htop git pv python-pip curl wget mtools dosfstools qemu-utils
 git clone https://github.com/geekgit/linux_scripts
