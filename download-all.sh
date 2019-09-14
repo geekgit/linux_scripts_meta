@@ -32,7 +32,7 @@ sudo apt-get purge -y cups cups-browsed
 sudo apt-get update
 sudo apt-get install -y apt-transport-https
 sudo apt-get update
-./fix-main-repo-bionic.sh
+./fix-main-repo.sh
 sudo apt-get update
 # fonts
 sudo apt-get install -y fonts-takao-mincho fonts-takao-gothic fonts-takao
