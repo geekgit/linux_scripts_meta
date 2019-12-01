@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+sudo apt-get install -y git curl
+#
 LocalCommit="$(./last-commit-local.sh)"
 RemoteCommit="$(./last-commit-remote.sh)"
 if [ "${LocalCommit}" = "${RemoteCommit}" ];
