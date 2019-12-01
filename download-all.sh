@@ -50,6 +50,8 @@ sudo add-apt-repository -y ppa:cdemu/ppa
 sudo apt-get update
 sudo apt-get install -y gcdemu
 #
+sudo apt-get install -y innoextract
+#
 # radio
 sudo apt-get install -y qsstv ebook2cwgui fldigi gqrx-sdr
 # OCR
