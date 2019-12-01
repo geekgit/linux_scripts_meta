@@ -1,4 +1,6 @@
 #!/bin/bash
+./fix-apport.sh
+./fix-apt.sh
 #
 sudo apt-get install -y git curl
 #
