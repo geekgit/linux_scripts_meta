@@ -63,6 +63,8 @@ sudo apt-get install -y cuneiform tesseract-ocr-all yagf
 # 
 # useful 2
 sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar
+# userful 3
+sudo apt-get install -y gnome-tweaks
 #
 # nv drivers
 sudo apt-get install -y libnvidia-cfg1-430
