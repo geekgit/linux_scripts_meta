@@ -128,7 +128,7 @@ cd ..
 rm -rf renamed/
 rm -rf linux_scripts/
 sudo geekgit-install-modem-soft
-sudo geekgit-setup-rules
+sudo geekgit-setup-rules-dynamic
 ./mpv.sh
 ./bash.sh
 sudo ./no-sleep.sh
