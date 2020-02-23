@@ -100,6 +100,7 @@ sudo chmod a+rx-w /usr/local/bin/screenfetch-dev
 rm screenfetch-dev
 sudo pip install --upgrade youtube-dl
 sudo pip install --upgrade speedtest-cli
+sudo pip install --upgrade flexget
 git clone https://github.com/geekgit/linux_scripts
 mkdir renamed
 cd linux_scripts
