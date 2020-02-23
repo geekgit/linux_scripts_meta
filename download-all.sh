@@ -155,3 +155,5 @@ sudo ./fix-openssl.sh
 # snap
 sudo snap install scrcpy
 sudo snap refresh
+# upgrade
+sudo apt-get install -y --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 
