@@ -46,6 +46,7 @@ sudo apt-get install -y cabextract xfonts-utils update-notifier-common
 env DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ttf-mscorefonts-installer
 # useful 
 sudo apt-get install -y uuid-runtime htop git pv python-pip curl wget mtools dosfstools qemu-utils
+sudo apt-get install -y sshpass
 #
 # iso tools
 sudo apt-get install -y mdf2iso b5i2iso ccd2iso cdi2iso daa2iso nrg2iso pdi2iso iat genisoimage acetoneiso bchunk udftools brasero k3b
