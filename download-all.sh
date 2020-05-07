@@ -69,8 +69,8 @@ sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full 
 sudo apt-get install -y gnome-tweaks psensor lm-sensors xsensors gddrescue
 #
 # nv drivers
-sudo apt-get install -y libnvidia-cfg1-430
-sudo apt-get install -y nvidia-driver-430
+sudo apt-get install -y libnvidia-cfg1-440
+sudo apt-get install -y nvidia-driver-440
 # phone
 sudo apt-get install -y jmtpfs mtp-tools android-tools-fastboot android-tools-adb
 #
