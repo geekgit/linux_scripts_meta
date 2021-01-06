@@ -31,6 +31,10 @@ else
 	fi	
 fi
 
+#git
+sudo add-apt-repository -y ppa:git-core/ppa
+sudo apt-get install -y git
+
 #purge
 sudo apt-get purge -y cups cups-browsed
 sudo apt-get update
