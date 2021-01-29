@@ -73,8 +73,8 @@ sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full 
 sudo apt-get install -y gnome-tweaks psensor lm-sensors xsensors gddrescue
 #
 # nv drivers
-sudo apt-get install -y libnvidia-cfg1-455
-sudo apt-get install -y nvidia-driver-455
+sudo apt-get install -y libnvidia-cfg1-460
+sudo apt-get install -y nvidia-driver-460
 # phone
 sudo apt-get install -y jmtpfs mtp-tools android-tools-fastboot android-tools-adb
 #
@@ -163,4 +163,10 @@ sudo ./fix-openssl.sh
 sudo snap install scrcpy
 sudo snap refresh
 # upgrade
-sudo apt-get install -y --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 
+sudo apt-get install -y --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04
+#
+geekgit-kernel-dl-x86_64 4.14.217
+geekgit-kernel-dl-x86_64 4.15
+geekgit-kernel-dl-x86_64 4.19.171
+geekgit-kernel-dl-x86_64 5.4.93
+geekgit-kernel-dl-x86_64 5.10.4
