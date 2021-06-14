@@ -52,6 +52,7 @@ env DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ttf-mscorefonts-insta
 sudo apt-get install -y uuid-runtime htop git pv python-pip curl wget mtools dosfstools qemu-utils
 sudo apt-get install -y exfat-fuse exfat-utils
 sudo apt-get install -y sshpass
+sudo apt-get install -y gucharmap
 #
 # iso tools
 sudo apt-get install -y mdf2iso b5i2iso ccd2iso cdi2iso daa2iso nrg2iso pdi2iso iat genisoimage acetoneiso bchunk udftools brasero k3b
