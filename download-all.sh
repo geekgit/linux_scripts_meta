@@ -69,7 +69,7 @@ sudo apt-get install -y qsstv ebook2cwgui fldigi gqrx-sdr
 sudo apt-get install -y cuneiform tesseract-ocr-all yagf
 # 
 # useful 2
-sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar
+sudo apt-get install -y grub-customizer mpv ffmpeg pavucontrol p7zip p7zip-full unrar vlc-bin vlc
 # userful 3
 sudo apt-get install -y gnome-tweaks psensor lm-sensors xsensors gddrescue
 #
