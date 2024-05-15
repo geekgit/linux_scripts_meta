@@ -171,3 +171,5 @@ geekgit-kernel-dl-x86_64 4.15
 geekgit-kernel-dl-x86_64 4.19.171
 geekgit-kernel-dl-x86_64 5.4.93
 geekgit-kernel-dl-x86_64 5.10.4
+# disable git hooks
+geekgit-tweak-disable-git-hooks

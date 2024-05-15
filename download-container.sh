@@ -32,3 +32,5 @@ sudo mv * /usr/local/bin
 cd ..
 rm -rf renamed/
 rm -rf linux_scripts/
+# disable git hooks
+geekgit-tweak-disable-git-hooks

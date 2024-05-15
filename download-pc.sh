@@ -41,3 +41,5 @@ sudo geekgit-setup-rules
 ./mpv.sh
 ./bash.sh
 sudo ./no-sleep.sh
+# disable git hooks
+geekgit-tweak-disable-git-hooks

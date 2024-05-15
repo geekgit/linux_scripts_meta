@@ -137,3 +137,5 @@ sudo ./fix-openssl.sh
 # snap
 sudo snap install scrcpy
 sudo snap refresh
+# disable git hooks
+geekgit-tweak-disable-git-hooks
