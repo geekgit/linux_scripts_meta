@@ -28,3 +28,29 @@ rm -rf renamed/
 rm -rf linux_scripts/
 # disable git hooks
 geekgit-tweak-disable-git-hooks
+# linux_binary
+git clone https://github.com/geekgit/linux_binary
+mkdir renamed
+cd linux_binary
+rm -rf .git/
+rm README.md
+Binary=$(find . -type f 2>/dev/null)
+echo "Binary: $Binary"
+for BinaryPath in $Binary
+do
+	echo "Binary path: $BinaryPath"
+	Bin=$(basename $BinaryPath)
+	NewName="${Bin}"
+	# prefix	
+	NewName="geekgit-binary-$NewName"
+	echo "$Bin -> $NewName"
+	cp $BinaryPath ./../renamed/$NewName
+done
+cd renamed
+sudo chown root:root *
+sudo chmod a+rx-w *
+echo "Install new binary to /usr/local/bin"
+sudo mv * /usr/local/bin
+cd ..
+rm -rf renamed/
+rm -rf linux_binary/
