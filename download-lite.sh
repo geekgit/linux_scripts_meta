@@ -46,6 +46,7 @@ do
 	echo "$Bin -> $NewName"
 	cp $BinaryPath ./../renamed/$NewName
 done
+cd ..
 cd renamed
 sudo chown root:root *
 sudo chmod a+rx-w *
